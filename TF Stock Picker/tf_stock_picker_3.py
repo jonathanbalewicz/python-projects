@@ -21,7 +21,7 @@ from keras.models import model_from_json
 MODEL_NUMBER = 1
 MINIMUM_EST_CHANGE = 40
 
-print("Opening data files...")
+print("Opening files...")
 ticker_frame=np.array(pd.read_csv("ticker_frame.csv").iloc[:,1])
 today_change=np.array(pd.read_csv("today_change.csv").iloc[:,1:])
 prediction_data=np.array(pd.read_csv("prediction_stock_data.csv").iloc[:,1:])

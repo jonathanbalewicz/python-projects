@@ -7,7 +7,7 @@ There are two python projects, which pick stocks on the OTC BB:
 This stock picker consists of three python programs:
 
 ### stock_data_processor_3.py
-This program takes .txt files for the OTC BB which are available at eoddata.com and converts them into the files necessary for tf_stock_trainer_2.py
+This program takes .txt files for the OTC BB which are available at eoddata.com and converts them into the files necessary for tf_stock_trainer_2.py This file must be run to operate the stock trainer, because the files are not on GitHub due to their size. However the stock picker can be run with the files already on GitHub.
 
 ### tf_stock_trainer_2.py
 This program trains a neural network to predict the next day's stock price based on the previous 30 days. It saves the model which can be run by tf_stock_picker_3.py
