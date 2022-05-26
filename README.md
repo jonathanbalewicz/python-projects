@@ -1,6 +1,6 @@
 # Python Projects
 
-There are two of my own python projects, which pick stocks on the OTC BB, in addition to 4 school assignments, all of which recieved 100%.
+There are two of my own python projects, which pick stocks on the OTC BB, in addition to 4 school assignments.
 
 ## TensorFlow Stock Picker
 
